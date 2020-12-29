@@ -1,0 +1,31 @@
+{
+    "name": "StylizedWaterForURPEditor",
+    "references": [
+        "GUID:3eae0364be2026648bf74846acb8a731",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:457756d89b35d2941b3e7b37b4ece6f1",
+        "GUID:f6380a7cf2efc234e9cd772c54e0e6c7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "7.1.1",
+            "define": "UNIVERSAL_RENDERER"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "7.0",
+            "define": "HIGH_DEF_RENDERER"
+        }
+    ],
+    "noEngineReferences": false
+}
